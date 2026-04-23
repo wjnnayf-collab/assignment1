@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html long="en">
+    <head>
+        <!--HEAD + META -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Personal Portfolio Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header>
+            <h1>Wajn Alshahrani</h1>
+            <nav>
+                <!--LINKS-->
+                <a href="#about">About</a> |
+                <a href="#skills">Skills</a> |
+                <a href="#projects">Projects</a> |
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <!--ADOUT SECTION-->
+        <section id="About">
+            <h2>About</h2>
+            <p>I am Wajn Naif , a Computer Science student and a trainee at Akthm.</p> 
+          <!-- Image + Path -->
+            <img src="images/profile.jpg" alt="My Photo" width="200">
+       </section>
+          <!-- Skills Section -->
+         <section id="skills">
+            <h2>Skills</h2>
+              <!-- Lists -->
+          <h3>Technical Skills</h3>
+           <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+           </ul>
+          <h3>Soft Skills</h3>
+           <ol>
+            <li>Teamwork</li>
+            <li>Problem Solving</li>
+           </ol>
+         </section>
+       
+       <!-- Table Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <!-- Tables -->
+        <table border="1">
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Portfolio Website</td>
+                <td>My first website using HTML</td>
+                <td><a href="#">View</a></td>
+            </tr>
+            <tr>
+                <td>AI Project</td>
+                <td>Simple AI using Python</td>
+                <td><a href="#">View</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <!-- Forms + Input Types + Labels -->
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Enter your email"><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message"></textarea><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female<br><br>
+
+            <label>Skills:</label><br>
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS<br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Wajn Alshahrani</p>
+    </footer>
+
+</body>
+</html>
